@@ -1,0 +1,89 @@
+.cont {
+  display: flex;
+  justify-content: center;
+}
+
+.puzzle-cont {
+  display: flex;
+}
+.ranking {
+  text-align: center;
+  margin-top:2rem;
+}
+.tit{
+  text-align: center;
+
+}
+h1 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+h2{
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/*bg*/
+.bg-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+  margin-right:50px;
+}
+
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 196px;
+  height: 196px;
+  margin:1px;
+  background-color: #c5c5c5;
+}
+
+.pz-wrap {
+  display: flex;
+  flex-wrap:wrap;
+  width: 600px;
+  height: 600px;
+}
+.piece-wrap{
+  width: 196px;
+  height: 196px;
+  margin:1px;
+}
+
+.pz {
+  /*display: block;*/
+  vertical-align: bottom;
+  width: 196px;
+  height: 196px;
+  margin:1px;
+
+}
+
+img {
+  cursor: pointer;
+  transform: scale(1);
+  opacity: 1;
+  transition: transform .5s;
+}
+
+img.down {
+  transform: scale(1.2);
+}
+
+img.move {
+  opacity: 0.8;
+}
