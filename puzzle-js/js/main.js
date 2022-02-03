@@ -1,4 +1,4 @@
-import {StopWatch} from "./stop-watch.js";
+// import {StopWatch} from "./stop-watch.js";
 
 class ItemDragHandler {
     //전역변수로 설정.
@@ -31,7 +31,6 @@ class ItemDragHandler {
     }
 
     addEvent() {
-        StopWatch.tick();
 
         this.downHandler = (e) => {
             this.onDownHandler(e);
